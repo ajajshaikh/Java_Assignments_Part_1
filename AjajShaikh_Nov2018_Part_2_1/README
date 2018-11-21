@@ -1,0 +1,16 @@
+The user first needs to login from the login page.
+
+web Container : Tomcat
+URL : http://localhost:8080/AjajShaikh_Nov2018_Part_2_1/login.jsp
+	->username : cotiviti
+	->password : cotiviti
+
+After successful validation of username and password the login.jsp page will redirect to 
+visitcount.jsp page with URL : http://localhost:8080/AjajShaikh_Nov2018_Part_2_1/visitcount.jsp
+
+After each refresh and every time the "visitcount" page is visited the page counter will increment.
+If the user is logged out and again after new login the count will continue to increase from the last count.
+
+If the user presses "back" button from the "visitcount" page then he/she will be redirected to the login page again
+in order to provide user security. 
+ 

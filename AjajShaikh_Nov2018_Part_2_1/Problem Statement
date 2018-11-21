@@ -1,0 +1,4 @@
+Visits Counter
+Create a Java based web application that would display number of visits made to a particular page.
+	* You should be able to login and later route to a "visit page" where the visits count is displayed. The count is for the visit page and not for login.
+	* When you logout and login back again, you should start counting from last count.
