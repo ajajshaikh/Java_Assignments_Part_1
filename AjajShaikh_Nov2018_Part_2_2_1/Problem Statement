@@ -1,0 +1,5 @@
+Server/Client. Create a Chat Server that can accept multiple clients. Client should be able to communicate with each other through the Server.
+Server knows who would be talking to who. To keep things simpler, we will not be creating "Groups of clients", that is, all clients registered with server will be able to chat with everyone.
+	* Scenario - 1: 1 Server, 2 Clients talking to each other.
+	* Server should be logging all the messages that it receives from each of its clients in a persistent store.
+	* Not a web-application. Console based application is fine.

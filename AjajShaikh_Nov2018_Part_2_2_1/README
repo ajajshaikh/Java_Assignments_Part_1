@@ -1,0 +1,17 @@
+Host Address = localhost
+Port number = 9984
+Database name = chat_history
+Table name = chat_backup
+Database url = jdbc:mysql://localhost:3306/chat_history
+
+
+Steps to run the application :
+	1)Run the Server.java first.
+	2)Create two instances of Client.java in Eclipse by using the "Run Configuration" option in "Run As".
+	3)Run the created instances of Client.java
+	
+How to send a message :
+	From the client console type the message you want to send say "msg" and complete the sentence with the recipient name 
+	as msg@client i (where i=0 or 1) with 0 corresponding to client 1 and 1 corresponding to client 2.
+	After sending the message the console can be switched in Eclipse with "Display Selected Console" option.
+	
