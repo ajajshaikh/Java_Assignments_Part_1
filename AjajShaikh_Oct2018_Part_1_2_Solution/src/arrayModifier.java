@@ -62,8 +62,7 @@ public class arrayModifier {
 	}
 		
 		//Binary search function to find the index of first number greater than input from arr1[]
-		static int binary_search(int arr[], int l, int r, int a) 
-	    { 
+	static int binary_search(int arr[], int l, int r, int a) { 
 	        while (l <= r) 
 	        { 
 	            int mid = (l+r) / 2;             
@@ -77,12 +76,12 @@ public class arrayModifier {
 	    }
 		
 		//Function to compute the result and print on console
-		static void computeResult(int arr1[],int arr2[],int m,int n) {
+	    static void computeResult(int arr1[],int arr2[],int m,int n) {
 			Arrays.sort(arr2);		//sorting the array arr2[]
 			for(int i=0;i<m;i++) {
 				System.out.print((binary_search(arr2,0,n-1,arr1[i]) + 1) + " ");
 			}
-		 }
+	    }
 	
 
 }
